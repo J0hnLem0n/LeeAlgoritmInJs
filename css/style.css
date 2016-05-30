@@ -1,0 +1,24 @@
+table {
+    border-collapse:collapse;
+}
+td {
+    border: 1px solid darkgray;
+    width: 40px;
+    height: 40px;
+}
+.start {
+    background: url("../img/w256h2561339398976AutoRacingFinishFlag.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.end {
+    background: url("../img/start-button-news.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.path {
+    background-color: rgba(14, 255, 212, 0.31) !important;
+}
+.wall {
+    background-color: rgba(0, 0, 0, 0.36);
+}
