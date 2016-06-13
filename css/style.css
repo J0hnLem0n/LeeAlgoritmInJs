@@ -2,9 +2,10 @@ table {
     border-collapse:collapse;
 }
 td {
-    border: 1px solid darkgray;
+    border: 1px solid #575555;
     width: 40px;
     height: 40px;
+    text-align: center;
 }
 .start {
     background: url("../img/w256h2561339398976AutoRacingFinishFlag.png");
@@ -17,8 +18,19 @@ td {
     background-size: contain;
 }
 .path {
-    background-color: rgba(14, 255, 212, 0.31) !important;
+    background-color: rgba(14, 255, 212, 0.31);
 }
 .wall {
-    background-color: rgba(0, 0, 0, 0.36);
+    background-color: rgb(74, 74, 74);
+}
+#auto {
+    text-align: center;
+    line-height: 43px;
+    vertical-align: middle;
+    position: absolute;
+    color:#9356B1;
+    width: 43px;
+    height: 43px;
+    font-size: 30px;
+    display: none;
 }
